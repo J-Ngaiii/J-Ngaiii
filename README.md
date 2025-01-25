@@ -1,5 +1,5 @@
 Hi! I’m Jonathan, a third-year studying Political Science and Data Science at UC Berkeley. 
 
-I’m interested in asking data-centric questions and creative problem solving. In particular I’m interested in predictive modeling, probability theory and exploratory data analysis. 
+My interest include predictive modeling, probability theory and all things data analysis related from figuring out how to find data to cleaning to EDA! 
 
-Outside of courses, I’ve been involved in research groups, course staff, student government and community service throughout my time at Berkeley. Through these experiences I’ve developed passions for teaching, research and project management. 
+Outside of courses, I’ve been involved in research groups, course staff, student government and community service orgs throughout my time at Berkeley. I love teaching and service roles where I can apply my skills to have an impact on the communities around me. 
