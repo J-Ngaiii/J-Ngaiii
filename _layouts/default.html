@@ -1,10 +1,13 @@
+<!-- jekyll will pull content from markdown pages -> insert into {{content}} areas -> inherits styles, layouts and functionalities from _includes and _layouts -->
 ---
+<!-- Layout declaration: Tells jekyll to use the compress layout-->
 layout: compress
 ---
 
 {% include base_path %}
 
 <!doctype html>
+<!-- Line 10 sets language, with site.locale being defined in _config-->
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
