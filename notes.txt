@@ -34,3 +34,8 @@ Contains all the templates like `Teaching.html`, `Projects.html` and more that d
 # Changing the top navigation bar
 - go to _data > navigation.yml and also modify _config > collections
 
+# Custom Domain Link
+- go to github > settings > pages and type in a custom domain name
+- Search up a domain registrar and sign up 
+- Asking geronimo
+
