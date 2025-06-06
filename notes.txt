@@ -9,9 +9,28 @@ Folder for setting appearance of the website.
 
 # _layouts
 Folder with html templates for setting the structure/layout of different pages of your website. These are liquid templates that dynamically pull content from other folders and styles from _sass. Jekyll applies these layouts dynamically to keep things updated. 
+- `compress.html` is a jekyll layout that compresses html
+- `default.html` defines the default page structure
+- other pages use `default` as their layout
 
 # _includes
 Folder for storing reuseable html scripts that can be inserted into different pages using `{% include %}`. 
 - Stores header and footer components
 - Does SEO and Metadata through files like `head.html`
+
+# _pages
+Contains all the templates like `Teaching.html`, `Projects.html` and more that define the layout and permalink of those pages. In the body of files like `Projects.html` you loop through the `_projects` folder
+
+# sidebar.html for configuringn sidebar profile pic
+- The line: `<img src= {% if s.image contains "://" %} "{{ s.image }}"` first checks if the image is from a website and loads it from a website --> update `s.image` to be the website url
+- The line: `{% else %} "{{ s.image | prepend: "/images/" | prepend: base_path }}"` then constructs a local path to an `/images/` folder
+
+- Change _config.yml > Profile > avatar
+- Can also change _data > authors.yml but that doesn't seem to change anything visible 
+
+# Changing the Front Page
+- go to _pages > about.md
+
+# Changing the top navigation bar
+- go to _data > navigation.yml and also modify _config > collections
 

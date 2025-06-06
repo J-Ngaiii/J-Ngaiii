@@ -1,0 +1,32 @@
+# Ruby Permission Issue for installing jekyll
+Indicator: Local path is “usr/bin/ruby” rather than “usr/local/bin/ruby”
+Fix: Install ruby version manager
+- brew install rbenv
+- rbenv init
+- rbenv install 3.1.2
+- rbenv global 3.1.2
+- Restrat terminal
+- rbenv init
+- rbenv global 3.1.2
+- Which ruby → check that its something like “/Users/jonathanngai/.rbenv/shims/ruby”
+
+- Then do gem install jekyll 
+
+# Getting Projects Page Working
+- Check that theres a `_projects` folder with a `project-1.md`
+- Check that the `_config.yml` has a section called `collections` with:
+    `
+    projects:
+    output: true
+    permalink: /:collection/:path/
+    `
+- Check that navigation.yml has the following under `main`:
+    `
+    - title: "Projects"
+    url: /projects/
+    `
+- in `_pages` or root of repo have a `projects.html` that defines how projects are formatted
+- Individual projects.md have a `layout: projects`
+
+# Doubled sidebar and pages across every page
+- Issue with comments in `_layouts` > `default.html`

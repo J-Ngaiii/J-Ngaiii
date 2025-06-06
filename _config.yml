@@ -8,28 +8,28 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Jonathan Ngai / Data Science and Political Science at UC Berkeley"
+title                    : "Jonathan Ngai"
 title_separator          : "-"
 name                     : &name "Jonathan Ngai"
 description              : &description "Hi! I’m Jonathan, a third-year studying Data Science and Political Science at UC Berkeley. I’m interested in asking data-centric questions and creative problem solving. In particular I’m interested in predictive modeling, probability theory and exploratory data analysis. Outside of courses, I’ve been involved in research groups, course staff, student government and community service throughout my time at Berkeley. Through these experiences I’ve developed passions for teaching, research and project management. I’m always open to new experiences and looking for a problem to fall in love with!"
 url                      : https://J-Ngaiii.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "/jnNgaiiblog" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/jngai" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
-site_theme               : "dark"
+# site_theme               : "dark"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "ngai_pfp_0.jpg"
   name             : "Jonathan Ngai"
   pronouns         : "he/him/his"
-  bio              : "third-year studying Data Science and Political Science at UC Berkeley with an interest in LLMs. "
+  bio              : "Rising 4th-year studying Data Science and Political Science at UC Berkeley with an interest in ML, LLMs and Data. "
   location         : "Berkeley, California / Hong Kong"
   employer         : "Lawrence Berkeley National Lab"
   uri              : # URL
-  email            : "jngai_@example.org" 
+  email            : "jngai_@berkeley.edu" 
 
   # # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
@@ -219,11 +219,11 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
