@@ -1,7 +1,5 @@
 ## Hi there 👋
 
-I'm Jonathan! I'm a Master of Statistics and Data Science student at UC Berkeley. 
+My name is Jonathan. I'm currently a Master of Statistics and Data Science student at UC Berkeley interested in applications of ML/AI and Statistics. I also attended UC Berkeley for my undergrad and graduated in Spring 2026 with two degrees in Data Science (Honors) and Political Science.
 
-I'm interested applications of ML/AI and Statistics of scientific research. I've research experience applying neural networks to hard science (genomic language model research @ Berkeley Lab) and social science (graph neural net research @ BAIR).
-
-Feel free to send me an email at jngai_@berkeley.edu if you want to get in contact!
+Feel free to contact me at jngai_[at]berkeley[dot]edu!
